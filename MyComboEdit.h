@@ -5,7 +5,7 @@ public:
 	MyComboEdit();
 	~MyComboEdit();
 	int CreateMyComboEditWindow();
-
+	static LRESULT CALLBACK MyWndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam);
 private:
 	HWND m_wnd_handle;
 	HINSTANCE  m_hInst;

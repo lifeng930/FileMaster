@@ -79,6 +79,7 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="EventLog.h" />
     <ClInclude Include="FileInfo.h" />
     <ClInclude Include="FileMaster.h" />
     <ClInclude Include="FileOperator.h" />
@@ -88,6 +89,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="EventLog.cpp" />
     <ClCompile Include="FileInfo.cpp" />
     <ClCompile Include="FileMaster.cpp" />
     <ClCompile Include="FileOperator.cpp" />
